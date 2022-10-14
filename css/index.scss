@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    text-align: center;
+}
+#RecPrev{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .recipe{
+        img{
+            width:300px;
+            height:400px;
+        }
+    }
+}
